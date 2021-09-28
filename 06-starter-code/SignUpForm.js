@@ -13,6 +13,9 @@ const SignUpForm = () => {
       <Col className="my-auto py-2 p-0 p-md-2" md={6}>
         <Container className={`${appStyles.Content} p-4 `}>
           <h1 className={styles.Header}>sign up</h1>
+
+            {/* add your form here */}
+
         </Container>
         <Container className={`mt-3 ${appStyles.Content}`}>
           <Link className={styles.Link} to="/signin">
