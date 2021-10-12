@@ -16,8 +16,6 @@ function PostCreateForm() {
 
   const [errors, setErrors] = useState({});
 
-//   Add your handleChange function here
-
 
   const textFields = (
     <div className="text-center">
