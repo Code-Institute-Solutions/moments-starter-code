@@ -16,7 +16,6 @@ import { useCurrentUser } from "../../contexts/CurrentUserContext";
 function ProfilePage() {
   const [hasLoaded, setHasLoaded] = useState(false);
   const currentUser = useCurrentUser();
-  const is_owner = currentUser?.username === owner;
 
   useEffect(() => {
       setHasLoaded(true);
